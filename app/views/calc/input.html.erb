@@ -1,0 +1,12 @@
+<h1>Варняга Максим ИУ6-33Б Вариант №__</h1>
+<div class="task"><strong>Задание: </strong>____text____</div>
+
+
+<div class="form">
+<%= form_with url: "/calc/view", method: :get do |form| %>
+    <%= form.label "Input: " %>
+    <%= form.text_field :numbers, value: "13 -21 37" %>
+    <br/> 
+    <%= form.submit "SUBMIT" %>
+    <% end %>
+</div>
