@@ -1,11 +1,10 @@
-<h1>Варняга Максим ИУ6-33Б Вариант №__</h1>
-<div class="task"><strong>Задание: </strong>____text____</div>
+<h1>Лабораторная работа №8</br>Вариант 2</h1>
 
 
 <div class="form">
 <%= form_with url: "/calc/view", method: :get do |form| %>
-    <%= form.label "Input: " %>
-    <%= form.text_field :numbers, value: "13 -21 37" %>
+    <%= form.label "Введите число n: " %>
+    <%= form.text_field :numbers, value: "100" %>
     <br/> 
     <%= form.submit "SUBMIT" %>
     <% end %>
